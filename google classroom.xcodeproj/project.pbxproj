@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F9B6D53FE9693F1DFBE3378 /* Pods_google_classroom.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89886CE425896E38E7B33F5F /* Pods_google_classroom.framework */; };
+		8C3A7BD42A99EE2B00DAFD9B /* ClassWorkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3A7BD32A99EE2B00DAFD9B /* ClassWorkViewController.swift */; };
+		8C3A7BD62A99EE9700DAFD9B /* PeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3A7BD52A99EE9700DAFD9B /* PeopleViewController.swift */; };
+		8C5450E22AA1D0C600ACFEA2 /* tabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5450E12AA1D0C600ACFEA2 /* tabBarController.swift */; };
+		8C662CC92A7B9D3600819599 /* sidemenucontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C662CC82A7B9D3600819599 /* sidemenucontroller.swift */; };
+		8C6C6D9E2A9DDD85006785D2 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6C6D9D2A9DDD85006785D2 /* MainTableViewCell.swift */; };
+		8C6C6DA02A9DE61D006785D2 /* MyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6C6D9F2A9DE295006785D2 /* MyList.swift */; };
+		8C6E69D32A8F71A7000CECF9 /* ShareWithYourClassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6E69D22A8F71A6000CECF9 /* ShareWithYourClassViewController.swift */; };
+		8C6E69D52A908F71000CECF9 /* AddAttachementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6E69D42A908F70000CECF9 /* AddAttachementViewController.swift */; };
+		8C6E69D72A909C6E000CECF9 /* ThreeDotNewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6E69D62A909C6E000CECF9 /* ThreeDotNewViewController.swift */; };
+		8C711F952AADBF7400E63B19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CAF3EB22A6E73D4007DEAE1 /* Main.storyboard */; };
+		8C711F972AADBFDB00E63B19 /* ViewControllerForSendGoogleFeedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C711F962AADBFDB00E63B19 /* ViewControllerForSendGoogleFeedback.swift */; };
+		8C711F9B2AADC3EA00E63B19 /* ViewControllerForeCreateThreeDotPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C711F9A2AADC3EA00E63B19 /* ViewControllerForeCreateThreeDotPopup.swift */; };
+		8C711F9D2AADC46A00E63B19 /* ViewControllerThreeDotPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C711F9C2AADC46A00E63B19 /* ViewControllerThreeDotPopup.swift */; };
+		8C711FA12AADD24800E63B19 /* createViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C711FA02AADD24800E63B19 /* createViewController.swift */; };
+		8C711FC52AB051C600E63B19 /* texfFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C711FC42AB051C500E63B19 /* texfFieldCell.swift */; };
+		8C83AA482AA5D7120089F491 /* ViewControllerForNotificationForSeting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C83AA472AA5D7120089F491 /* ViewControllerForNotificationForSeting.swift */; };
+		8C83AA4A2AA5D7890089F491 /* ViewControllerForEmailNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C83AA492AA5D7890089F491 /* ViewControllerForEmailNotification.swift */; };
+		8C83AA4C2AA5D7C60089F491 /* ViewControllerForHelpSidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C83AA4B2AA5D7C60089F491 /* ViewControllerForHelpSidebar.swift */; };
+		8C83AA4E2AA5D7F70089F491 /* ViewControllerHelpPopulForThreeDot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C83AA4D2AA5D7F60089F491 /* ViewControllerHelpPopulForThreeDot.swift */; };
+		8C83AA502AA5D8650089F491 /* ViewControllerOpenSorcePopupTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C83AA4F2AA5D8650089F491 /* ViewControllerOpenSorcePopupTableView.swift */; };
+		8C83AA522AA5D9160089F491 /* TableViewCellForLicence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C83AA512AA5D9160089F491 /* TableViewCellForLicence.swift */; };
+		8CAB7B1D2A7F8BB80031EC29 /* sideMenuTableViewCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAB7B1C2A7F8BB80031EC29 /* sideMenuTableViewCell1.swift */; };
+		8CAB7B1F2A7F8C180031EC29 /* sideMenuTableViewCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAB7B1E2A7F8C180031EC29 /* sideMenuTableViewCell2.swift */; };
+		8CAB7B212A7F8C4C0031EC29 /* sideMenuTableViewCell3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAB7B202A7F8C4C0031EC29 /* sideMenuTableViewCell3.swift */; };
+		8CAB7B252A80E2A10031EC29 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8CAB7B242A80E2A00031EC29 /* GoogleService-Info.plist */; };
+		8CAB7B272A80ED030031EC29 /* LoginPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAB7B262A80ED030031EC29 /* LoginPageController.swift */; };
+		8CAB7B2B2A8A23B30031EC29 /* CreateClassSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAB7B2A2A8A23B30031EC29 /* CreateClassSettingViewController.swift */; };
+		8CAF3EAD2A6E73D4007DEAE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAF3EAC2A6E73D4007DEAE1 /* AppDelegate.swift */; };
+		8CAF3EAF2A6E73D4007DEAE1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAF3EAE2A6E73D4007DEAE1 /* SceneDelegate.swift */; };
+		8CAF3EB12A6E73D4007DEAE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAF3EB02A6E73D4007DEAE1 /* ViewController.swift */; };
+		8CAF3EB62A6E73D7007DEAE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CAF3EB52A6E73D7007DEAE1 /* Assets.xcassets */; };
+		8CAF3EB92A6E73D7007DEAE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CAF3EB72A6E73D7007DEAE1 /* LaunchScreen.storyboard */; };
+		8CBC5BA32AA5EA3500B6C6AC /* ViewControllerForRefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBC5BA22AA5EA3400B6C6AC /* ViewControllerForRefresh.swift */; };
+		8CCC52CF2A91E5BB0051F6DE /* addFromDriveTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CCC52CE2A91E5BB0051F6DE /* addFromDriveTableViewCell.swift */; };
+		8CCC52D12A9351860051F6DE /* InsertLinkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CCC52D02A9351850051F6DE /* InsertLinkViewController.swift */; };
+		8CF74F772A73D4F700F31193 /* popUpCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF74F762A73D4F700F31193 /* popUpCellTableViewCell.swift */; };
+		CA24743F2A8385D6001C9414 /* ViewControllerForSidbarSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA24743E2A8385D6001C9414 /* ViewControllerForSidbarSetting.swift */; };
+		CA380FEB2A6FCEE200CF804A /* uiviewControllerForHomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA380FEA2A6FCEE200CF804A /* uiviewControllerForHomePage.swift */; };
+		CA380FED2A6FD5AB00CF804A /* LearnMoreWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA380FEC2A6FD5AB00CF804A /* LearnMoreWebView.swift */; };
+		CA4D02C52A7CF18E00F77BC1 /* ViewControllerForGmailAccountPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4D02C42A7CF18E00F77BC1 /* ViewControllerForGmailAccountPopup.swift */; };
+		CA4D02C72A7CFAF200F77BC1 /* ViewControllerForPrivacyPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4D02C62A7CFAF200F77BC1 /* ViewControllerForPrivacyPolicy.swift */; };
+		CA4D02C92A7CFB3A00F77BC1 /* ViewControllerForTermsAndService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4D02C82A7CFB3900F77BC1 /* ViewControllerForTermsAndService.swift */; };
+		CA83C8BF2A7E4D5A00E55E0E /* ViewControllerForSendGoogleFeedbackPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA83C8BE2A7E4D5A00E55E0E /* ViewControllerForSendGoogleFeedbackPopup.swift */; };
+		CAA21DE42A7F948E000504D5 /* ViewControllerForSendFeedbakAllowNextPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA21DE32A7F948E000504D5 /* ViewControllerForSendFeedbakAllowNextPopup.swift */; };
+		CAA21DE62A7F9C9B000504D5 /* ViewControllerReportAndIssue.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA21DE52A7F9C9B000504D5 /* ViewControllerReportAndIssue.swift */; };
+		CAAEEECE2A8236C000EA1DF8 /* ViewControllerForSuggestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAEEECD2A8236C000EA1DF8 /* ViewControllerForSuggestion.swift */; };
+		CAB477912A73BE660040C89B /* ViewControllerForPlusPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB477902A73BE660040C89B /* ViewControllerForPlusPopup.swift */; };
+		CAB477932A73C1B90040C89B /* ViewControllerForCreateClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB477922A73C1B90040C89B /* ViewControllerForCreateClass.swift */; };
+		CAB477952A73C1E00040C89B /* ViewControllerForJoinClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB477942A73C1E00040C89B /* ViewControllerForJoinClass.swift */; };
+		CAECE82A2A7A474D00367B4D /* ViewControllerForthreeDotInJoinClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAECE8292A7A474D00367B4D /* ViewControllerForthreeDotInJoinClass.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		19036F8708A76F274F1A0D5C /* Pods-google classroom.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-google classroom.release.xcconfig"; path = "Target Support Files/Pods-google classroom/Pods-google classroom.release.xcconfig"; sourceTree = "<group>"; };
+		40A6A8BC3DC81346AC407DD3 /* Pods-google classroom.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-google classroom.debug.xcconfig"; path = "Target Support Files/Pods-google classroom/Pods-google classroom.debug.xcconfig"; sourceTree = "<group>"; };
+		89886CE425896E38E7B33F5F /* Pods_google_classroom.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_google_classroom.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C3A7BD32A99EE2B00DAFD9B /* ClassWorkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassWorkViewController.swift; sourceTree = "<group>"; };
+		8C3A7BD52A99EE9700DAFD9B /* PeopleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleViewController.swift; sourceTree = "<group>"; };
+		8C5450E12AA1D0C600ACFEA2 /* tabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabBarController.swift; sourceTree = "<group>"; };
+		8C662CC82A7B9D3600819599 /* sidemenucontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sidemenucontroller.swift; sourceTree = "<group>"; };
+		8C6C6D9D2A9DDD85006785D2 /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		8C6C6D9F2A9DE295006785D2 /* MyList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyList.swift; sourceTree = "<group>"; };
+		8C6E69D22A8F71A6000CECF9 /* ShareWithYourClassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareWithYourClassViewController.swift; sourceTree = "<group>"; };
+		8C6E69D42A908F70000CECF9 /* AddAttachementViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AddAttachementViewController.swift; path = "/Users/monilsojitra/Desktop/google-classroom/google classroom/AddAttachementViewController.swift"; sourceTree = "<absolute>"; };
+		8C6E69D62A909C6E000CECF9 /* ThreeDotNewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeDotNewViewController.swift; sourceTree = "<group>"; };
+		8C711F962AADBFDB00E63B19 /* ViewControllerForSendGoogleFeedback.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerForSendGoogleFeedback.swift; sourceTree = "<group>"; };
+		8C711F9A2AADC3EA00E63B19 /* ViewControllerForeCreateThreeDotPopup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerForeCreateThreeDotPopup.swift; sourceTree = "<group>"; };
+		8C711F9C2AADC46A00E63B19 /* ViewControllerThreeDotPopup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewControllerThreeDotPopup.swift; path = ../../../.Trash/ViewControllerThreeDotPopup.swift; sourceTree = "<group>"; };
+		8C711FA02AADD24800E63B19 /* createViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = createViewController.swift; sourceTree = SOURCE_ROOT; };
+		8C711FC42AB051C500E63B19 /* texfFieldCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = texfFieldCell.swift; sourceTree = "<group>"; };
+		8C83AA472AA5D7120089F491 /* ViewControllerForNotificationForSeting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerForNotificationForSeting.swift; sourceTree = "<group>"; };
+		8C83AA492AA5D7890089F491 /* ViewControllerForEmailNotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerForEmailNotification.swift; sourceTree = "<group>"; };
+		8C83AA4B2AA5D7C60089F491 /* ViewControllerForHelpSidebar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerForHelpSidebar.swift; sourceTree = "<group>"; };
+		8C83AA4D2AA5D7F60089F491 /* ViewControllerHelpPopulForThreeDot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerHelpPopulForThreeDot.swift; sourceTree = "<group>"; };
+		8C83AA4F2AA5D8650089F491 /* ViewControllerOpenSorcePopupTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerOpenSorcePopupTableView.swift; sourceTree = "<group>"; };
+		8C83AA512AA5D9160089F491 /* TableViewCellForLicence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCellForLicence.swift; sourceTree = "<group>"; };
+		8CAB7B1C2A7F8BB80031EC29 /* sideMenuTableViewCell1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sideMenuTableViewCell1.swift; sourceTree = "<group>"; };
+		8CAB7B1E2A7F8C180031EC29 /* sideMenuTableViewCell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sideMenuTableViewCell2.swift; sourceTree = "<group>"; };
+		8CAB7B202A7F8C4C0031EC29 /* sideMenuTableViewCell3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sideMenuTableViewCell3.swift; sourceTree = "<group>"; };
+		8CAB7B242A80E2A00031EC29 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8CAB7B262A80ED030031EC29 /* LoginPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageController.swift; sourceTree = "<group>"; };
+		8CAB7B2A2A8A23B30031EC29 /* CreateClassSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CreateClassSettingViewController.swift; path = "/Users/monilsojitra/Desktop/google-classroom/CreateClassSettingViewController.swift"; sourceTree = "<absolute>"; };
+		8CAF3EA92A6E73D4007DEAE1 /* google classroom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "google classroom.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CAF3EAC2A6E73D4007DEAE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8CAF3EAE2A6E73D4007DEAE1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8CAF3EB02A6E73D4007DEAE1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8CAF3EB32A6E73D4007DEAE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8CAF3EB52A6E73D7007DEAE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8CAF3EB82A6E73D7007DEAE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8CAF3EBA2A6E73D7007DEAE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CBC5BA22AA5EA3400B6C6AC /* ViewControllerForRefresh.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerForRefresh.swift; sourceTree = "<group>"; };
+		8CCC52CE2A91E5BB0051F6DE /* addFromDriveTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addFromDriveTableViewCell.swift; sourceTree = "<group>"; };
+		8CCC52D02A9351850051F6DE /* InsertLinkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertLinkViewController.swift; sourceTree = "<group>"; };
+		8CF74F762A73D4F700F31193 /* popUpCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popUpCellTableViewCell.swift; sourceTree = "<group>"; };
+		CA24743E2A8385D6001C9414 /* ViewControllerForSidbarSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerForSidbarSetting.swift; sourceTree = "<group>"; };
+		CA380FEA2A6FCEE200CF804A /* uiviewControllerForHomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uiviewControllerForHomePage.swift; sourceTree = "<group>"; };
+		CA380FEC2A6FD5AB00CF804A /* LearnMoreWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnMoreWebView.swift; sourceTree = "<group>"; };
+		CA4D02C42A7CF18E00F77BC1 /* ViewControllerForGmailAccountPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerForGmailAccountPopup.swift; sourceTree = "<group>"; };
+		CA4D02C62A7CFAF200F77BC1 /* ViewControllerForPrivacyPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerForPrivacyPolicy.swift; sourceTree = "<group>"; };
+		CA4D02C82A7CFB3900F77BC1 /* ViewControllerForTermsAndService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerForTermsAndService.swift; sourceTree = "<group>"; };
+		CA83C8BE2A7E4D5A00E55E0E /* ViewControllerForSendGoogleFeedbackPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerForSendGoogleFeedbackPopup.swift; sourceTree = "<group>"; };
+		CAA21DE32A7F948E000504D5 /* ViewControllerForSendFeedbakAllowNextPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerForSendFeedbakAllowNextPopup.swift; sourceTree = "<group>"; };
+		CAA21DE52A7F9C9B000504D5 /* ViewControllerReportAndIssue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerReportAndIssue.swift; sourceTree = "<group>"; };
+		CAAEEECD2A8236C000EA1DF8 /* ViewControllerForSuggestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerForSuggestion.swift; sourceTree = "<group>"; };
+		CAB477902A73BE660040C89B /* ViewControllerForPlusPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerForPlusPopup.swift; sourceTree = "<group>"; };
+		CAB477922A73C1B90040C89B /* ViewControllerForCreateClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerForCreateClass.swift; sourceTree = "<group>"; };
+		CAB477942A73C1E00040C89B /* ViewControllerForJoinClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerForJoinClass.swift; sourceTree = "<group>"; };
+		CAECE8292A7A474D00367B4D /* ViewControllerForthreeDotInJoinClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerForthreeDotInJoinClass.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8CAF3EA62A6E73D4007DEAE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F9B6D53FE9693F1DFBE3378 /* Pods_google_classroom.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8CAF3EA02A6E73D4007DEAE1 = {
+			isa = PBXGroup;
+			children = (
+				8CAF3EAB2A6E73D4007DEAE1 /* google classroom */,
+				8CAF3EAA2A6E73D4007DEAE1 /* Products */,
+				ADEB2C780CB04F254B95DBF9 /* Pods */,
+				BB630083D5E6464197B6FA37 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8CAF3EAA2A6E73D4007DEAE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CAF3EA92A6E73D4007DEAE1 /* google classroom.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8CAF3EAB2A6E73D4007DEAE1 /* google classroom */ = {
+			isa = PBXGroup;
+			children = (
+				8CE681602AAC764B00495E7F /* table view cell */,
+				8C6C6D9F2A9DE295006785D2 /* MyList.swift */,
+				8C711FC42AB051C500E63B19 /* texfFieldCell.swift */,
+				8CAF3EAC2A6E73D4007DEAE1 /* AppDelegate.swift */,
+				8CAF3EAE2A6E73D4007DEAE1 /* SceneDelegate.swift */,
+				8C711F962AADBFDB00E63B19 /* ViewControllerForSendGoogleFeedback.swift */,
+				8CAF3EB22A6E73D4007DEAE1 /* Main.storyboard */,
+				8CAF3EB02A6E73D4007DEAE1 /* ViewController.swift */,
+				CA24743E2A8385D6001C9414 /* ViewControllerForSidbarSetting.swift */,
+				8CAB7B262A80ED030031EC29 /* LoginPageController.swift */,
+				8C6E69D22A8F71A6000CECF9 /* ShareWithYourClassViewController.swift */,
+				CAECE8292A7A474D00367B4D /* ViewControllerForthreeDotInJoinClass.swift */,
+				8CAB7B2A2A8A23B30031EC29 /* CreateClassSettingViewController.swift */,
+				8C5450E12AA1D0C600ACFEA2 /* tabBarController.swift */,
+				CAAEEECD2A8236C000EA1DF8 /* ViewControllerForSuggestion.swift */,
+				CAA21DE52A7F9C9B000504D5 /* ViewControllerReportAndIssue.swift */,
+				8C711F9A2AADC3EA00E63B19 /* ViewControllerForeCreateThreeDotPopup.swift */,
+				8C6E69D62A909C6E000CECF9 /* ThreeDotNewViewController.swift */,
+				8C83AA472AA5D7120089F491 /* ViewControllerForNotificationForSeting.swift */,
+				CAA21DE32A7F948E000504D5 /* ViewControllerForSendFeedbakAllowNextPopup.swift */,
+				CA83C8BE2A7E4D5A00E55E0E /* ViewControllerForSendGoogleFeedbackPopup.swift */,
+				8C711F9C2AADC46A00E63B19 /* ViewControllerThreeDotPopup.swift */,
+				CA4D02C62A7CFAF200F77BC1 /* ViewControllerForPrivacyPolicy.swift */,
+				CA4D02C42A7CF18E00F77BC1 /* ViewControllerForGmailAccountPopup.swift */,
+				8C662CC82A7B9D3600819599 /* sidemenucontroller.swift */,
+				8C6E69D42A908F70000CECF9 /* AddAttachementViewController.swift */,
+				CAB477942A73C1E00040C89B /* ViewControllerForJoinClass.swift */,
+				CAB477922A73C1B90040C89B /* ViewControllerForCreateClass.swift */,
+				CAB477902A73BE660040C89B /* ViewControllerForPlusPopup.swift */,
+				8C83AA492AA5D7890089F491 /* ViewControllerForEmailNotification.swift */,
+				8C83AA4B2AA5D7C60089F491 /* ViewControllerForHelpSidebar.swift */,
+				8C83AA4D2AA5D7F60089F491 /* ViewControllerHelpPopulForThreeDot.swift */,
+				CA380FEC2A6FD5AB00CF804A /* LearnMoreWebView.swift */,
+				CA380FEA2A6FCEE200CF804A /* uiviewControllerForHomePage.swift */,
+				CA4D02C82A7CFB3900F77BC1 /* ViewControllerForTermsAndService.swift */,
+				8CBC5BA22AA5EA3400B6C6AC /* ViewControllerForRefresh.swift */,
+				8C3A7BD52A99EE9700DAFD9B /* PeopleViewController.swift */,
+				8C3A7BD32A99EE2B00DAFD9B /* ClassWorkViewController.swift */,
+				8CCC52D02A9351850051F6DE /* InsertLinkViewController.swift */,
+				8CE681572AAC725300495E7F /* view controllers */,
+				8CAF3EB52A6E73D7007DEAE1 /* Assets.xcassets */,
+				8CAF3EB72A6E73D7007DEAE1 /* LaunchScreen.storyboard */,
+				8CAB7B242A80E2A00031EC29 /* GoogleService-Info.plist */,
+				8CAF3EBA2A6E73D7007DEAE1 /* Info.plist */,
+			);
+			path = "google classroom";
+			sourceTree = "<group>";
+		};
+		8CE681572AAC725300495E7F /* view controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8C711FA02AADD24800E63B19 /* createViewController.swift */,
+			);
+			path = "view controllers";
+			sourceTree = "<group>";
+		};
+		8CE681602AAC764B00495E7F /* table view cell */ = {
+			isa = PBXGroup;
+			children = (
+				8CF74F762A73D4F700F31193 /* popUpCellTableViewCell.swift */,
+				8C83AA4F2AA5D8650089F491 /* ViewControllerOpenSorcePopupTableView.swift */,
+				8C83AA512AA5D9160089F491 /* TableViewCellForLicence.swift */,
+				8C6C6D9D2A9DDD85006785D2 /* MainTableViewCell.swift */,
+				8CCC52CE2A91E5BB0051F6DE /* addFromDriveTableViewCell.swift */,
+				8CAB7B202A7F8C4C0031EC29 /* sideMenuTableViewCell3.swift */,
+				8CAB7B1E2A7F8C180031EC29 /* sideMenuTableViewCell2.swift */,
+				8CAB7B1C2A7F8BB80031EC29 /* sideMenuTableViewCell1.swift */,
+			);
+			path = "table view cell";
+			sourceTree = "<group>";
+		};
+		ADEB2C780CB04F254B95DBF9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				40A6A8BC3DC81346AC407DD3 /* Pods-google classroom.debug.xcconfig */,
+				19036F8708A76F274F1A0D5C /* Pods-google classroom.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BB630083D5E6464197B6FA37 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89886CE425896E38E7B33F5F /* Pods_google_classroom.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8CAF3EA82A6E73D4007DEAE1 /* google classroom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CAF3EBD2A6E73D7007DEAE1 /* Build configuration list for PBXNativeTarget "google classroom" */;
+			buildPhases = (
+				30A0B46C6A51CA755308004C /* [CP] Check Pods Manifest.lock */,
+				8CAF3EA52A6E73D4007DEAE1 /* Sources */,
+				8CAF3EA62A6E73D4007DEAE1 /* Frameworks */,
+				8CAF3EA72A6E73D4007DEAE1 /* Resources */,
+				4E1B3747FFDC5BD1BFF3CECC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "google classroom";
+			productName = "google classroom";
+			productReference = 8CAF3EA92A6E73D4007DEAE1 /* google classroom.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8CAF3EA12A6E73D4007DEAE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					8CAF3EA82A6E73D4007DEAE1 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 8CAF3EA42A6E73D4007DEAE1 /* Build configuration list for PBXProject "google classroom" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8CAF3EA02A6E73D4007DEAE1;
+			productRefGroup = 8CAF3EAA2A6E73D4007DEAE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CAF3EA82A6E73D4007DEAE1 /* google classroom */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CAF3EA72A6E73D4007DEAE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CAF3EB92A6E73D7007DEAE1 /* LaunchScreen.storyboard in Resources */,
+				8CAB7B252A80E2A10031EC29 /* GoogleService-Info.plist in Resources */,
+				8CAF3EB62A6E73D7007DEAE1 /* Assets.xcassets in Resources */,
+				8C711F952AADBF7400E63B19 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		30A0B46C6A51CA755308004C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-google classroom-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E1B3747FFDC5BD1BFF3CECC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-google classroom/Pods-google classroom-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-google classroom/Pods-google classroom-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-google classroom/Pods-google classroom-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CAF3EA52A6E73D4007DEAE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C662CC92A7B9D3600819599 /* sidemenucontroller.swift in Sources */,
+				8C6E69D52A908F71000CECF9 /* AddAttachementViewController.swift in Sources */,
+				8CAF3EB12A6E73D4007DEAE1 /* ViewController.swift in Sources */,
+				8CAF3EAD2A6E73D4007DEAE1 /* AppDelegate.swift in Sources */,
+				8C3A7BD62A99EE9700DAFD9B /* PeopleViewController.swift in Sources */,
+				8C83AA4E2AA5D7F70089F491 /* ViewControllerHelpPopulForThreeDot.swift in Sources */,
+				8C5450E22AA1D0C600ACFEA2 /* tabBarController.swift in Sources */,
+				8C83AA4A2AA5D7890089F491 /* ViewControllerForEmailNotification.swift in Sources */,
+				CA4D02C52A7CF18E00F77BC1 /* ViewControllerForGmailAccountPopup.swift in Sources */,
+				8C6C6DA02A9DE61D006785D2 /* MyList.swift in Sources */,
+				CAB477912A73BE660040C89B /* ViewControllerForPlusPopup.swift in Sources */,
+				8CBC5BA32AA5EA3500B6C6AC /* ViewControllerForRefresh.swift in Sources */,
+				CA380FEB2A6FCEE200CF804A /* uiviewControllerForHomePage.swift in Sources */,
+				8CAB7B212A7F8C4C0031EC29 /* sideMenuTableViewCell3.swift in Sources */,
+				8C711F9D2AADC46A00E63B19 /* ViewControllerThreeDotPopup.swift in Sources */,
+				8CAB7B2B2A8A23B30031EC29 /* CreateClassSettingViewController.swift in Sources */,
+				8C6C6D9E2A9DDD85006785D2 /* MainTableViewCell.swift in Sources */,
+				8CF74F772A73D4F700F31193 /* popUpCellTableViewCell.swift in Sources */,
+				CA380FED2A6FD5AB00CF804A /* LearnMoreWebView.swift in Sources */,
+				CA83C8BF2A7E4D5A00E55E0E /* ViewControllerForSendGoogleFeedbackPopup.swift in Sources */,
+				8CAB7B272A80ED030031EC29 /* LoginPageController.swift in Sources */,
+				8C83AA4C2AA5D7C60089F491 /* ViewControllerForHelpSidebar.swift in Sources */,
+				8C711F972AADBFDB00E63B19 /* ViewControllerForSendGoogleFeedback.swift in Sources */,
+				CA4D02C92A7CFB3A00F77BC1 /* ViewControllerForTermsAndService.swift in Sources */,
+				8C83AA482AA5D7120089F491 /* ViewControllerForNotificationForSeting.swift in Sources */,
+				8C83AA522AA5D9160089F491 /* TableViewCellForLicence.swift in Sources */,
+				CAAEEECE2A8236C000EA1DF8 /* ViewControllerForSuggestion.swift in Sources */,
+				CAB477932A73C1B90040C89B /* ViewControllerForCreateClass.swift in Sources */,
+				8CAB7B1D2A7F8BB80031EC29 /* sideMenuTableViewCell1.swift in Sources */,
+				8C711FC52AB051C600E63B19 /* texfFieldCell.swift in Sources */,
+				CAECE82A2A7A474D00367B4D /* ViewControllerForthreeDotInJoinClass.swift in Sources */,
+				8C711F9B2AADC3EA00E63B19 /* ViewControllerForeCreateThreeDotPopup.swift in Sources */,
+				8C711FA12AADD24800E63B19 /* createViewController.swift in Sources */,
+				CAB477952A73C1E00040C89B /* ViewControllerForJoinClass.swift in Sources */,
+				CAA21DE42A7F948E000504D5 /* ViewControllerForSendFeedbakAllowNextPopup.swift in Sources */,
+				CAA21DE62A7F9C9B000504D5 /* ViewControllerReportAndIssue.swift in Sources */,
+				CA24743F2A8385D6001C9414 /* ViewControllerForSidbarSetting.swift in Sources */,
+				8CCC52CF2A91E5BB0051F6DE /* addFromDriveTableViewCell.swift in Sources */,
+				CA4D02C72A7CFAF200F77BC1 /* ViewControllerForPrivacyPolicy.swift in Sources */,
+				8CAF3EAF2A6E73D4007DEAE1 /* SceneDelegate.swift in Sources */,
+				8C6E69D32A8F71A7000CECF9 /* ShareWithYourClassViewController.swift in Sources */,
+				8CAB7B1F2A7F8C180031EC29 /* sideMenuTableViewCell2.swift in Sources */,
+				8C83AA502AA5D8650089F491 /* ViewControllerOpenSorcePopupTableView.swift in Sources */,
+				8C6E69D72A909C6E000CECF9 /* ThreeDotNewViewController.swift in Sources */,
+				8CCC52D12A9351860051F6DE /* InsertLinkViewController.swift in Sources */,
+				8C3A7BD42A99EE2B00DAFD9B /* ClassWorkViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8CAF3EB22A6E73D4007DEAE1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CAF3EB32A6E73D4007DEAE1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8CAF3EB72A6E73D7007DEAE1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CAF3EB82A6E73D7007DEAE1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8CAF3EBB2A6E73D7007DEAE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8CAF3EBC2A6E73D7007DEAE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8CAF3EBE2A6E73D7007DEAE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40A6A8BC3DC81346AC407DD3 /* Pods-google classroom.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MTL7SH5Y39;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "google classroom/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "google-classroom.google-classroom";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8CAF3EBF2A6E73D7007DEAE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19036F8708A76F274F1A0D5C /* Pods-google classroom.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MTL7SH5Y39;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "google classroom/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "google-classroom.google-classroom";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8CAF3EA42A6E73D4007DEAE1 /* Build configuration list for PBXProject "google classroom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CAF3EBB2A6E73D7007DEAE1 /* Debug */,
+				8CAF3EBC2A6E73D7007DEAE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CAF3EBD2A6E73D7007DEAE1 /* Build configuration list for PBXNativeTarget "google classroom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CAF3EBE2A6E73D7007DEAE1 /* Debug */,
+				8CAF3EBF2A6E73D7007DEAE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8CAF3EA12A6E73D4007DEAE1 /* Project object */;
+}
